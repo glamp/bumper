@@ -5,8 +5,8 @@ const { docopt } = require('docopt');
 
 const doc = `
 Usage:
-  bumper <manifest.json> [--release=<type>]
-  bumper -h | --help | --version
+  upwards <manifest.json> [--release=<type>]
+  upwards -h | --help | --version
 
 Options:
   -r --release	Release type (major, minor, patch, premajor, preminor, prepatch, or prerelease) [default: patch].

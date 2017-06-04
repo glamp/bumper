@@ -1,12 +1,12 @@
 {
-  "name": "bumper",
+  "name": "upwards",
   "version": "0.1.0",
   "description": "Bump your packages.",
   "main": "index.js",
   "author": "Greg Lamp <lamp.greg@gmail.com>",
   "license": "BSD-2-Clause",
   "bin": {
-    "bumper": "node index.js"
+    "upwards": "node index.js"
   },
   "dependencies": {
     "docopt": "^0.6.2",
