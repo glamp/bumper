@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs');
 const semver = require('semver');
 const pkg = require('./package.json');
