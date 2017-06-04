@@ -1,6 +1,8 @@
 # upwards
+Use this to increment versions of things--namely non-standard, npm-like package.json files. For instance, the
+manifest.json file in your Chrome extension ;).
 
-```
+```bash
 $ npm install upwards -g
 $ upwards -h
 Usage:
