@@ -1,6 +1,6 @@
 {
   "name": "upwards",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bump your packages.",
   "main": "index.js",
   "author": "Greg Lamp <lamp.greg@gmail.com>",
