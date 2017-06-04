@@ -1,6 +1,6 @@
 {
   "name": "bumper",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Bump your packages.",
   "main": "index.js",
   "author": "Greg Lamp <lamp.greg@gmail.com>",
