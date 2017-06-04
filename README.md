@@ -11,5 +11,13 @@ Usage:
 
 Options:
   -r --release	Release type (major, minor, patch, premajor, preminor, prepatch, or prerelease) [default: patch].
-$ upwards manifest.json patch
+```
+### Examples
+```bash
+# defaults to 'patch'
+$ upwards manifest.json
+# use `--release` flag
+$ upwards manifest.json --release patch
+# or `-r` if you like shorthand
+$ upwards manifest.json -r patch
 ```
