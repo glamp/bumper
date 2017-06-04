@@ -9,7 +9,7 @@ Usage:
   bumper -h | --help | --version
 
 Options:
-  -r --release	Release type (major, minor, patch, premajor, preminor, prepatch, or prerelease) [default: minor].
+  -r --release	Release type (major, minor, patch, premajor, preminor, prepatch, or prerelease) [default: patch].
 `
 
 var args = docopt(doc, { version: pkg.version });
@@ -29,7 +29,7 @@ try {
 }
 
 var currentVersion = package.version;
-var release = args['--release'] || 'minor';
+var release = args['--release'] || 'patch';
 
 var newVersion = semver.inc(currentVersion, release);
 
